@@ -37,8 +37,8 @@ while True:
     
 
     elif opcion== "5":
-        totaldia=calcular_ingresos(pedido)
-        print (totaldia)
+        calcular_ingresos(pedido)
+        
 
     elif opcion== "6":
         reporte_final(pedido,clientes)
