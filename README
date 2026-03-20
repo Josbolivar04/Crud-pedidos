@@ -1,0 +1,109 @@
+Console Order Management System
+
+-Description
+This project is a simple program that runs in the console. It helps manage a small business by allowing you to register clients, products, and create orders. It also shows reports about sales and income.
+
+This system works like a digital notebook where everything is organized automatically.
+
+How to open and run the project (step by step)
+
+Open Visual Studio Code (VS Code)
+
+Go to your computer and open the program called “Visual Studio Code”.
+
+Open the project folder
+
+Click on "File" (top menu)
+
+Select "Open Folder"
+
+Look for the folder named "registro"
+
+Select it and click "Open"
+
+Open the terminal
+
+In VS Code, go to the top menu
+
+Click on "Terminal"
+
+Then click on "New Terminal"
+
+Run the program
+
+In the terminal, type the following command:
+
+python main.py
+
+Press Enter
+
+Use the system
+
+A menu will appear on the screen
+
+Type a number and press Enter to choose an option
+
+Project Structure
+
+The project is organized into several files, each one with a specific function:
+
+main.py
+This is the main file. It shows the menu and connects all parts of the system.
+
+Clientes.py
+Handles client registration.
+
+Producto.py
+Handles product registration.
+
+Pedido.py
+Manages order creation.
+
+Visualizarpedido.py
+Allows you to view a specific order.
+
+totaldia.py
+Calculates the total income of the day.
+
+reporte.py
+Generates the final report with all sales information.
+
+What the system can do
+
+Register clients
+
+Register products
+
+Create orders
+
+View orders
+
+Calculate total daily income
+
+Generate a final report
+
+How it works
+
+When you run the program, you will see a menu like this:
+
+Register client
+
+Register product
+
+Create order
+
+View orders
+
+View daily income
+
+View final report
+
+Exit
+
+You just choose an option by typing a number.
+
+The system will ask for the necessary information, such as names, IDs, prices, and quantities.
+
+Authors
+
+Joseph Bolivar, Guillermo Rojano, Vanderley Castro.
